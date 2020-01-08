@@ -1,11 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Trello" verbose="1" >
-    <test name="SmokeTest" >
+<suite name="Suite1" verbose="1" >
+    <test name="Board" >
         <classes>
             <class name="com.meir.trello.LoginTest_HW_03" />
             <class name="com.meir.trello.BoardCreationTests" />
             <class name="com.meir.trello.BoardDeletionTest" />
+
         </classes>
     </test>
 </suite>
