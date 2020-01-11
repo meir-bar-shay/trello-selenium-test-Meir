@@ -8,30 +8,31 @@ import org.testng.annotations.Test;
 public class BoardCreationTests_WB extends  TestBase{
     @BeforeMethod
     public void preconditions() throws InterruptedException {
-        if(!app.isAvatarPresentOnHeader()){
-            app.loginAtlassianAcc();
+        if(!isAvatarPresentOnHeader()){
+            loginAtlassianAcc();
         }
     }
     @Test
     public void testBoardCreationFromHeader() throws InterruptedException {
-        int before =   app.getBoardsCount();
-        app.clickOnPlusButton();
-        app.selectCreateBoardFromDropDown();
-        app.fillBoardForm("qa22"+ System.currentTimeMillis());
-        app.confirmBoardCreation();
-        app.pause(15000);
-        app.returnToHomePage();
-        int after = app.getBoardsCount();
+
+        int before = getBoardsCount();
+        clickOnPlusButton();
+        selectCreateBoardFromDropDown();
+        fillBoardForm("qa22"+ System.currentTimeMillis());
+        confirmBoardCreation();
+        pause(15000);
+        returnToHomePage();
+        int after = getBoardsCount();
 
         Assert.assertEquals(after, before+1);
     }
 
     @AfterClass
     public void postActions() throws InterruptedException {
-        int boardsCount = app.getBoardsCount();
+        int boardsCount = getBoardsCount();
         while (boardsCount>4){
-            app.deleteBoard();
-            boardsCount = app.getBoardsCount();
+            deleteBoard();
+            boardsCount = getBoardsCount();
         }
     }
 

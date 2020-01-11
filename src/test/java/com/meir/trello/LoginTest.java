@@ -6,8 +6,8 @@ public class LoginTest extends TestBase {
 
     @Test(enabled = false)
     public void testLogIn() throws InterruptedException {
-        app.clickLoginLink();
-        app.loginWhithBothAccs();
+        clickLoginLink();
+        loginWhithBothAccs();
 
     }
 }

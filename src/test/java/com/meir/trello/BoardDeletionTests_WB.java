@@ -7,36 +7,36 @@ import org.testng.annotations.Test;
 public class BoardDeletionTests_WB extends TestBase {
     @BeforeMethod
     public void preconditions() throws InterruptedException {
-        if (!app.isAvatarPresentOnHeader()) {
-            app.loginAtlassianAcc();
+        if (!isAvatarPresentOnHeader()) {
+            loginAtlassianAcc();
         }
-        if (!app.isThereBoard()) {
-            app.createBoard();
+        if (!isThereBoard()) {
+            createBoard();
         }
     }
 
     @Test
     public void testFirstBoardDeletion1() throws InterruptedException {
-        app.openFirstBoard();
-        app.clickOpenMore();
-        app.startCloseBoard();
-        app.confirmCloseBoard();
+        openFirstBoard();
+        clickOpenMore();
+        startCloseBoard();
+        confirmCloseBoard();
         permanentlyDeleteBoard();
     }
 
     @Test
     public void testFirstBoardDeletion2() throws InterruptedException {
-        app.openFirstBoard();
-        app.pause(10000);
-        app.clickOpenMore();
-        app.startCloseBoard();
-        app.confirmCloseBoard();
-        app.returnToHomePage();
+        openFirstBoard();
+        pause(10000);
+        clickOpenMore();
+        startCloseBoard();
+        confirmCloseBoard();
+        returnToHomePage();
     }
 
-    public void permanentlyDeleteBoard() throws InterruptedException {
-        app.click(By.cssSelector(".js-delete"));
-        app.confirmCloseBoard();
+    public void permanentlyDeleteBoard(){
+        click(By.cssSelector(".js-delete"));
+        confirmCloseBoard();
     }
 
 }

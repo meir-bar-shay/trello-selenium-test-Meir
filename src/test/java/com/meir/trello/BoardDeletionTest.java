@@ -6,24 +6,34 @@ import org.testng.annotations.Test;
 public class BoardDeletionTest extends TestBase {
     @BeforeMethod
     public void ensurePreconditions() throws InterruptedException {
-        if(!app.isAvatarPresentOnHeader()){
-            app.logoutAtlassianAss();
+        if(!isAvatarPresentOnHeader()){
+            loginAtlassianAcc();
         }
     }
     @Test
-    public void deleteSingleBoard() throws InterruptedException {
-        if(app.boardIsSuccessfullyClicked())
-            app.boardDeletionProcess();
+    public void testDeleteSingleBoard() throws InterruptedException {
+        if(boardIsSuccessfullyClicked())
+            boardDeletionProcess();
 
     }
     @Test
-    public void deleteAllBoards() throws InterruptedException {
-            
-        while(app.boardIsSuccessfullyClicked())
+    public void testDeleteAllBoards() throws InterruptedException {
+
+        while(boardIsSuccessfullyClicked())
         {
-            app.boardDeletionProcess();
+            boardDeletionProcess();
         }
     }
 
+
+    public void boardDeletionProcess() throws InterruptedException {
+        openBoardMore();
+        selectCloseBoardButton();
+        clickBoardButtonClose();
+        permanentlyBoard();
+        permanentlyDeletionBoard();
+        returnToHomePage();
+        pause(5000);
+    }
 
 }

@@ -8,24 +8,24 @@ public class LoginTest_HW_03 extends TestBase {
 
     @BeforeMethod
     public void ensurePreconditions() throws InterruptedException {
-        if(app.isAvatarPresentOnHeader()){
-            app.logout();
+        if(isAvatarPresentOnHeader()){
+            logout();
         }
     }
 
     @Test
     public void testLogInWithAtlassianAcc() throws InterruptedException {
-        app.clickLoginLink();
-        app.fillLoginFormAtlassianAcc("meir.bar.shay@gmail.com", "Trello2019");
-        app.pause(20000);
-       Assert.assertTrue(app.isAvatarPresentOnHeader());
+        clickLoginLink();
+        fillLoginFormAtlassianAcc("meir.bar.shay@gmail.com", "Trello2019");
+        pause(20000);
+       Assert.assertTrue(isAvatarPresentOnHeader());
     }
 
     @Test
     public void testLogInWithAtlassianAcc1() throws InterruptedException {
-        app.clickLoginLink();
-        app.fillLoginFormAtlassianAcc("meir.bar.shay@gmail.com", "Trello2019");
-        app.pause(20000);
-        Assert.assertTrue(app.isAvatarPresentOnHeader());
+        clickLoginLink();
+        fillLoginFormAtlassianAcc("meir.bar.shay@gmail.com", "Trello2019");
+        pause(20000);
+        Assert.assertTrue(isAvatarPresentOnHeader());
     }
 }
