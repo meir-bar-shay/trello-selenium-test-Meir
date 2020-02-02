@@ -1,0 +1,3 @@
+2020-02-02 13:28:22,176 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test deletionBoardTestswith parameters[]
+2020-02-02 13:29:28,159 INFO [Test worker] t.m.b.t.u.Listener [Listener.java:19] deletionBoardTests Passed Successful
+2020-02-02 13:29:28,159 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test deletionBoardTests

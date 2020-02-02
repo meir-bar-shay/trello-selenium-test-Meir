@@ -1,0 +1,8 @@
+2020-02-02 13:16:37,553 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@3c4d28c2]
+2020-02-02 13:18:13,077 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderCSV Failed
+java.lang.AssertionError: expected [1] but found [0]
+2020-02-02 13:18:13,637 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580642293607.png
+2020-02-02 13:18:13,637 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderCSV
+2020-02-02 13:18:13,637 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@60bf4ca8]

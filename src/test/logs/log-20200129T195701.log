@@ -1,0 +1,40 @@
+2020-01-29 19:57:18,630 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@5ee5bb4]
+2020-01-29 19:58:49,328 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderCSV Failed
+java.lang.AssertionError: expected [1] but found [0]
+2020-01-29 19:58:49,773 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:62] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580320729758.png
+2020-01-29 19:58:49,773 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderCSV
+2020-01-29 19:58:49,773 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@59cb65d3]
+2020-01-29 19:59:10,805 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderCSV Failed
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <p>...</p> is not clickable at point (367, 23). Other element would receive the click: <span class="_3Iqnw8HlCKvcSz">...</span>
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.43.242', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 438f343835e8af797bce962282d541a0
+2020-01-29 19:59:11,206 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:62] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580320751206.png
+2020-01-29 19:59:11,221 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderCSV
+2020-01-29 19:59:11,221 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@3d997c6d]
+2020-01-29 19:59:24,901 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderCSV Failed
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.43.242', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 438f343835e8af797bce962282d541a0
+*** Element info: {Using=css selector, value=[data-test-id='header-create-menu-button']}
+2020-01-29 19:59:24,933 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderCSV Failed
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.43.242', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4786}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 438f343835e8af797bce962282d541a0

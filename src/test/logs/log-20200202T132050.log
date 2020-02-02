@@ -1,0 +1,16 @@
+2020-02-02 13:21:00,827 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderwith parameters[]
+2020-02-02 13:22:27,611 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeader Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id='header-create-menu-button']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '10.100.110.161', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:2198}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d60cab185440833dc6abb61d2ab966fe
+*** Element info: {Using=css selector, value=[data-test-id='header-create-menu-button']}
+2020-02-02 13:22:28,320 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580642548295.png
+2020-02-02 13:22:28,348 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeader
+2020-02-02 13:22:33,368 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@87b5f0a]

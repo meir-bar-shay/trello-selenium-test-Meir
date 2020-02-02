@@ -1,0 +1,9 @@
+2020-02-02 12:55:39,190 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@5ee5bb4]
+2020-02-02 12:56:44,727 INFO [Test worker] t.m.b.t.u.Listener [Listener.java:19] teamCreationTestFromHeaderCSV Passed Successful
+2020-02-02 12:56:44,743 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderCSV
+2020-02-02 12:56:44,743 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@1f45eb29]
+2020-02-02 12:57:11,605 INFO [Test worker] t.m.b.t.u.Listener [Listener.java:19] teamCreationTestFromHeaderCSV Passed Successful
+2020-02-02 12:57:11,605 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderCSV
+2020-02-02 12:57:11,621 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@53a5228b]
+2020-02-02 12:57:39,016 INFO [Test worker] t.m.b.t.u.Listener [Listener.java:19] teamCreationTestFromHeaderCSV Passed Successful
+2020-02-02 12:57:39,016 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderCSV

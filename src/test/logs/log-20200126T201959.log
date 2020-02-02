@@ -1,0 +1,7 @@
+2020-01-26 20:20:09,455 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testLogInWithAtlassianAccwith parameters[]
+2020-01-26 20:20:59,205 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] testLogInWithAtlassianAcc Failed
+java.lang.AssertionError: did not expect to find [true] but found [false]
+2020-01-26 20:20:59,615 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:62] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580062859609.png
+2020-01-26 20:20:59,616 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testLogInWithAtlassianAcc
