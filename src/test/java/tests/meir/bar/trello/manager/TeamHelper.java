@@ -14,8 +14,11 @@ public class TeamHelper extends  HelperBase{
   }
 
   public void submitTeamCreation() throws InterruptedException {
-      //pause(10000);
+
     click(By.cssSelector("[data-test-id='header-create-team-submit-button']"));
+    pause(5000);
+    click(By.cssSelector("[data-test-id='show-later-button']"));
+
   }
 
   public void closeInviteToTheTeamForm() {
@@ -33,9 +36,9 @@ public class TeamHelper extends  HelperBase{
     click(By.cssSelector("[data-test-id='header-create-team-button']"));
   }
 
-  public void clickLaterButton() {
-    click(By.cssSelector("[data-test-id=show-later-button]"));
-  }
+//  public void clickLaterButton() {
+//    click(By.cssSelector("[data-test-id=show-later-button]"));
+//  }
   public void clickOnTheTeam() {
     click(By.cssSelector("[data-test-id^=home-team-tab-section]"));
   }

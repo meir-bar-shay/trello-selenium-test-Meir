@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.meir.bar.trello.tests.BoardDeletionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-04T08:13:37" hostname="Meir_Max" time="43.062">
+  <properties/>
+  <testcase name="testFirstBoardDeletion1" classname="tests.meir.bar.trello.tests.BoardDeletionTests" time="6.737"/>
+  <testcase name="testFirstBoardDeletion2" classname="tests.meir.bar.trello.tests.BoardDeletionTests" time="16.815"/>
+  <system-out><![CDATA[10:12:46.024 [Test worker] INFO  tests.meir.bar.trello.tests.TestBase - Start test testFirstBoardDeletion1with parameters[]
+10:13:44.096 [Test worker] INFO  tests.meir.bar.trello.utils.Listener - testFirstBoardDeletion1 Passed Successful
+10:13:44.096 [Test worker] INFO  tests.meir.bar.trello.tests.TestBase - Stop test testFirstBoardDeletion1
+10:13:44.096 [Test worker] INFO  tests.meir.bar.trello.tests.TestBase - Start test testFirstBoardDeletion2with parameters[]
+10:14:20.421 [Test worker] INFO  tests.meir.bar.trello.utils.Listener - testFirstBoardDeletion2 Passed Successful
+10:14:20.424 [Test worker] INFO  tests.meir.bar.trello.tests.TestBase - Stop test testFirstBoardDeletion2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

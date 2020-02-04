@@ -1,0 +1,77 @@
+2020-02-03 06:35:33,938 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testBoardCreationFromHeaderwith parameters[]
+2020-02-03 06:36:42,546 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] testBoardCreationFromHeader Failed
+java.lang.AssertionError: expected [5] but found [4]
+2020-02-03 06:36:43,049 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580704603033.png
+2020-02-03 06:36:43,049 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testBoardCreationFromHeader
+2020-02-03 06:36:43,096 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testFirstBoardDeletion1with parameters[]
+2020-02-03 06:36:49,744 INFO [Test worker] t.m.b.t.u.Listener [Listener.java:19] testFirstBoardDeletion1 Passed Successful
+2020-02-03 06:36:49,744 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testFirstBoardDeletion1
+2020-02-03 06:36:49,744 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testFirstBoardDeletion2with parameters[]
+2020-02-03 06:37:25,516 INFO [Test worker] t.m.b.t.u.Listener [Listener.java:19] testFirstBoardDeletion2 Passed Successful
+2020-02-03 06:37:25,518 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testFirstBoardDeletion2
+2020-02-03 06:37:25,521 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testChangeAvatarwith parameters[]
+2020-02-03 06:37:25,541 INFO [Test worker] t.m.b.t.t.TestBase [ChangeUserAvatarTest.java:15] avatar before:
+2020-02-03 06:37:25,938 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580704645936.png
+2020-02-03 06:37:44,580 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] testChangeAvatar Failed
+org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Users\Elena\Documents\GitHub\trello-selenium-tests-Rochman\src\test\resources\2014-03-22 10.57.26.jpg
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:1159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf10a826956a4493ba376d56a13d3a56
+2020-02-03 06:37:44,954 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580704664954.png
+2020-02-03 06:37:44,954 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testChangeAvatar
+2020-02-03 06:37:44,969 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testLogInwith parameters[]
+2020-02-03 06:37:55,020 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] testLogIn Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:1159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf10a826956a4493ba376d56a13d3a56
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-03 06:37:55,516 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580704675513.png
+2020-02-03 06:37:55,516 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testLogIn
+2020-02-03 06:37:55,518 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testLogInWithAtlassianAccwith parameters[]
+2020-02-03 06:38:15,588 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] testLogInWithAtlassianAcc Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:1159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf10a826956a4493ba376d56a13d3a56
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-03 06:38:16,112 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580704696112.png
+2020-02-03 06:38:16,112 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testLogInWithAtlassianAcc
+2020-02-03 06:38:16,112 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testLogInWithAtlassianAcc2with parameters[]
+2020-02-03 06:38:36,257 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] testLogInWithAtlassianAcc2 Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/login']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:1159}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bf10a826956a4493ba376d56a13d3a56
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-03 06:38:36,659 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580704716659.png
+2020-02-03 06:38:36,659 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testLogInWithAtlassianAcc2
+2020-02-03 06:38:36,659 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderwith parameters[]
+2020-02-03 06:39:11,886 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test deletionBoardTestswith parameters[]

@@ -1,0 +1,101 @@
+2020-02-03 10:04:11,442 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderwith parameters[]
+2020-02-03 10:05:25,355 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeader Failed
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d626bd0a3f7b7a245eb3520dabc72f
+2020-02-03 10:05:25,778 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580717125762.png
+2020-02-03 10:05:25,778 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeader
+2020-02-03 10:05:30,785 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@6b862483]
+2020-02-03 10:06:12,243 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderCSV Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id=show-later-button]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d626bd0a3f7b7a245eb3520dabc72f
+*** Element info: {Using=css selector, value=[data-test-id=show-later-button]}
+2020-02-03 10:06:12,634 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580717172634.png
+2020-02-03 10:06:12,634 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderCSV
+2020-02-03 10:06:12,634 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@61bc556]
+2020-02-03 10:06:54,342 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderCSV Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id=show-later-button]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d626bd0a3f7b7a245eb3520dabc72f
+*** Element info: {Using=css selector, value=[data-test-id=show-later-button]}
+2020-02-03 10:06:54,812 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580717214812.png
+2020-02-03 10:06:54,812 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderCSV
+2020-02-03 10:06:54,843 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderCSVwith parameters[tests.meir.bar.trello.model.TeamData@51d6787f]
+2020-02-03 10:07:37,447 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderCSV Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id=show-later-button]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d626bd0a3f7b7a245eb3520dabc72f
+*** Element info: {Using=css selector, value=[data-test-id=show-later-button]}
+2020-02-03 10:07:37,853 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580717257853.png
+2020-02-03 10:07:37,853 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderCSV
+2020-02-03 10:07:47,878 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderWithDPwith parameters[name DP, description DP]
+2020-02-03 10:08:29,412 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderWithDP Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id=show-later-button]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d626bd0a3f7b7a245eb3520dabc72f
+*** Element info: {Using=css selector, value=[data-test-id=show-later-button]}
+2020-02-03 10:08:29,790 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580717309790.png
+2020-02-03 10:08:29,790 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderWithDP
+2020-02-03 10:08:29,790 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderWithDPwith parameters[DPn, ]
+2020-02-03 10:09:11,511 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderWithDP Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[data-test-id=show-later-button]"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d626bd0a3f7b7a245eb3520dabc72f
+*** Element info: {Using=css selector, value=[data-test-id=show-later-button]}
+2020-02-03 10:09:12,001 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580717352001.png
+2020-02-03 10:09:12,001 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderWithDP
+2020-02-03 10:09:12,017 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test teamCreationTestFromHeaderWithNameOnlywith parameters[]
+2020-02-03 10:09:53,455 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] teamCreationTestFromHeaderWithNameOnly Failed
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:5132}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d626bd0a3f7b7a245eb3520dabc72f
+2020-02-03 10:09:53,815 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580717393815.png
+2020-02-03 10:09:53,815 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test teamCreationTestFromHeaderWithNameOnly

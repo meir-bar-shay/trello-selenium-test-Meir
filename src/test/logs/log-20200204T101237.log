@@ -1,0 +1,6 @@
+2020-02-04 10:12:46,024 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testFirstBoardDeletion1with parameters[]
+2020-02-04 10:13:44,096 INFO [Test worker] t.m.b.t.u.Listener [Listener.java:19] testFirstBoardDeletion1 Passed Successful
+2020-02-04 10:13:44,096 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testFirstBoardDeletion1
+2020-02-04 10:13:44,096 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testFirstBoardDeletion2with parameters[]
+2020-02-04 10:14:20,421 INFO [Test worker] t.m.b.t.u.Listener [Listener.java:19] testFirstBoardDeletion2 Passed Successful
+2020-02-04 10:14:20,424 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testFirstBoardDeletion2

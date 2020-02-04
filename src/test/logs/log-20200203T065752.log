@@ -1,0 +1,16 @@
+2020-02-03 06:58:04,082 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testFirstBoardDeletion1with parameters[]
+2020-02-03 06:59:15,139 ERROR [Test worker] t.m.b.t.u.Listener [Listener.java:24] testFirstBoardDeletion1 Failed
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".js-open-more"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MEIR_MAX', ip: '192.168.1.20', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\Meir\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:1854}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ac7d71fb1bbf62d6c88b90f15b30155e
+*** Element info: {Using=css selector, value=.js-open-more}
+2020-02-03 06:59:15,723 INFO [Test worker] t.m.b.t.m.ApplicationManager [ApplicationManager.java:64] 
+
+Created screenshot: D:\QA_22\Automat_QA\GitHub\trello-selenium-test-Meir\src\test\screenshots\screen - 1580705955723.png
+2020-02-03 06:59:15,739 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:26] Stop test testFirstBoardDeletion1
+2020-02-03 06:59:15,739 INFO [Test worker] t.m.b.t.t.TestBase [TestBase.java:21] Start test testFirstBoardDeletion2with parameters[]

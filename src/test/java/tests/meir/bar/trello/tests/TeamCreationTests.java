@@ -27,7 +27,7 @@ public class TeamCreationTests extends TestBase{
 
     app.getTeam().submitTeamCreation();
 
-    app.getTeam().clickLaterButton();
+//    app.getTeam().clickLaterButton();
     app.getHeader().returnToHomePage();
     int teamCountAfter = app.getTeam().getTeamsCount();
     Assert.assertEquals(teamCountAfter, teamCountBefore+1);
@@ -46,7 +46,7 @@ public class TeamCreationTests extends TestBase{
 
     app.getTeam().submitTeamCreation();
 
-    app.getTeam().clickLaterButton();
+//    app.getTeam().clickLaterButton();
     app.getHeader().returnToHomePage();
     int teamCountAfter = app.getTeam().getTeamsCount();
     Assert.assertEquals(teamCountAfter, teamCountBefore+1);
@@ -70,7 +70,7 @@ int teamCountBefore = app.getTeam().getTeamsCount();
     if(app.getBase().isElementPresent(By.cssSelector("[name='close']"))){
       app.getTeam().closeInviteToTheTeamForm();
     }
-    app.getTeam().clickLaterButton();
+//    app.getTeam().clickLaterButton();
     app.getHeader().returnToHomePage();
 int teamCountAfter = app.getTeam().getTeamsCount();
   Assert.assertEquals(teamCountAfter, teamCountBefore+1);
@@ -91,7 +91,7 @@ int teamCountAfter = app.getTeam().getTeamsCount();
     if(app.getBase().isElementPresent(By.cssSelector("[name='close']"))){
       app.getTeam().closeInviteToTheTeamForm();
     }
-    app.getTeam().clickLaterButton();
+//    app.getTeam().clickLaterButton();
     app.getHeader().returnToHomePage();
     int teamCountAfter = app.getTeam().getTeamsCount();
     Assert.assertEquals(teamCountAfter, teamCountBefore+1);
